@@ -11,9 +11,9 @@
 # List ignore file below
 ##########################################
 
-JIRA_postman/source/MS_env.json
+ source/MS_env.json
 
-/source/MS_globals.json
+source/MS_globals.json
 
 node_modules/
 
