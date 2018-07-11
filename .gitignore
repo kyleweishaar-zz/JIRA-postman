@@ -1,6 +1,21 @@
+# The purpose of this file is to ensure that the files, file types, and paths, that are not tracked by Git remain untracked.
+# To stop tracking a file that is currently tracked, use `git rm --cached`.
+# Git paths have forward /
+# Example/Folder/File
+
+# documentation: https://git-scm.com/docs/gitignore
+
+# patterns: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+##########################################
+# List ignore file below
+##########################################
+
 MS_env.json
 
 MS_globals.json
 
 package-lock.json
+
+Newman/
 
