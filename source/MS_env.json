@@ -4,37 +4,37 @@
   "values": [
     {
       "key": "label",
-      "value": "-",
+      "value": "label",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "desc",
-      "value": "-",
+      "value": "desc",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "epic_name",
-      "value": "-",
+      "value": "name",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "username",
-      "value": "-",
+      "value": "bdm",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "password",
-      "value": "-",
+      "value": "Syntax36",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "date",
-      "value": "-",
+      "value": "aug",
       "enabled": true,
       "type": "text"
     }
