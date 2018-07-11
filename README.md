@@ -23,3 +23,9 @@ A prompt window opens for you to enter your JIRA credentials and info common to 
 After the program runs, you'll get a confirmation message and a status report opens in your browser.
 
 Expand the first green bar at the top of the page. In the reponse body you'll see the epic JIRA number. All JIRA tasks are nested under that.
+
+## What's here
+
+Reports are saved to the `Newman` folder. You delete this folder without consequence but the program will recreate it everytime you run the script.
+
+
