@@ -28,7 +28,7 @@
     },
     {
       "key": "password",
-      "value": "--",
+      "value": "---",
       "enabled": true,
       "type": "text"
     },
