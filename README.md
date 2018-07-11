@@ -4,11 +4,13 @@
 
 A script to build JIRA tasks using postman collections and Newman.
 
+## Note about passwords
+
+Your JIRA password is stored to the postman environment file so you'll either want to change the authentication or just don't share this with others. I've added the _env_ files to the ignore list. 
+
 ## Installation
 
-Your JIRA password is stored to the postman environment file so you'll either want to change the authentication or just don't share this with others.
-
-For the root folder, run the following command to install the dependencies:
+From the root folder, run the following command to install the dependencies:
 
 ```bash
 npm install
@@ -16,7 +18,11 @@ npm install
 
 ## Usage
 
-To run the script, double-click the batch file: NP_MS_Checks for NPrinting, or Sense_MS_Checks for Sense.
+To run the script, double-click the batch file: 
+
+1. `NP_Checks` for NPrinting
+
+1. `Sense_Checks` for Sense.
 
 A prompt window opens for you to enter your JIRA credentials and info common to all of the JIRAs. Labels must be properly formatted.
 
@@ -26,6 +32,7 @@ Expand the first green bar at the top of the page. In the reponse body you'll se
 
 ## What's here
 
-Reports are saved to the `Newman` folder. You delete this folder without consequence but the program will recreate it everytime you run the script.
+Reports are saved to the `Newman` folder. The newman folder is in the gitignore file so new reports won't be added to github.
+
 
 
