@@ -22,7 +22,7 @@
     },
     {
       "key": "username",
-      "value": "",
+      "value": "blahblahblah",
       "enabled": true,
       "type": "text"
     },
