@@ -63,7 +63,7 @@ fs.writeFile(fileName, JSON.stringify(file, null, 2), function (err) {
 });
 
 // run the newman script and log errors
-child = exec('node source/Sense/qv_runNewman.js {{args}}',
+child = exec('node source/QlikView/qv_runNewman.js {{args}}',
   function (error, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
