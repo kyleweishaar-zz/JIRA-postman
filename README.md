@@ -30,7 +30,9 @@ After the program runs, you'll get a confirmation message and a status report op
 
 Expand the first green bar at the top of the page. In the reponse body you'll see the epic JIRA number. All JIRA tasks are nested under that.
 
-## What's here
+## Note
+
+The `MS_env` file is in the repo as a template but added to the ignore list. When you are promted for username and password, they are saved to your local copy of this file and then passed into the API call to JIRA. 
 
 Reports are saved to the `Newman` folder. The newman folder is in the gitignore file so new reports won't be added to github.
 
