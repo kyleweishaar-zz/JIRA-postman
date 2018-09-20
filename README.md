@@ -1,4 +1,4 @@
-# JIRA_postman
+# JIRA-postman
 
 ## Description
 
