@@ -1,0 +1,8 @@
+{
+    "collection": "source/QlikView/qv_MS_checks.json",
+    "environment": "source/MS_env.json",
+    "globals": "source/MS_globals.json",
+    "iterationCount": 1,
+    "reporters": "html",
+    "reporter": { "html": {"template": "source/custom.hbs"} }
+}
