@@ -51,9 +51,9 @@ The batch file opens a cmd shell. Enter the details as prompted.
 
 - password = JIRA/Qlik password
 
-- JIRA label = `product_MS_Checks`
+- JIRA label = product_MS_Checks
 
-- epic title = `product` MS Checks
+- epic title = product MS Checks
 
 - epic desc = This is the description field in the JIRA task.
 
