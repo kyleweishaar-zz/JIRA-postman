@@ -1,6 +1,6 @@
 var fs = require('fs');
 var prompt = require('prompt');
-var fileName = '/git/JIRA_postman/source/MS_env.json';
+var fileName = '/git/JIRA_postman/source/globals/MS_env.json';
 var file = require(fileName);
 var exec = require('child_process').exec,child;
 var btoa = require('btoa');
