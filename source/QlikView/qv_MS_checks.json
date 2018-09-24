@@ -1,16 +1,15 @@
 {
 	"info": {
-		"_postman_id": "8143800a-bb8e-4a20-9ef9-1d4371c328e9",
-		"name": "JIRA - Sense MS Checks",
+		"_postman_id": "b8805169-b577-4933-9a16-b5b4e90095e4",
+		"name": "JIRA - QV MS Checks",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "epic",
-			"description": "",
 			"item": [
 				{
-					"name": "Sense Create Epic",
+					"name": "QV Create Epic",
 					"event": [
 						{
 							"listen": "test",
@@ -65,7 +64,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\":\"Qlik Sense Enterprise\"\r\n},\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n    \"summary\": \"{{epic_name}}\",\r\n   \"description\": \"{{desc}}\",\r\n   \"customfield_10007\": \"{{epic_name}}\",\r\n   \"issuetype\": {\r\n                    \"id\": \"8\",\r\n                    \"description\": \"To be completed by: {{date}} \\n\\n {{desc}}\",\r\n                    \"name\": \"Epic\"\r\n                }\r\n  }\r\n}"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\":\"QlikView\"\r\n},\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n    \"summary\": \"{{epic_name}}\",\r\n   \"description\": \"{{desc}}\",\r\n   \"customfield_10007\": \"{{epic_name}}\",\r\n   \"issuetype\": {\r\n                    \"id\": \"8\",\r\n                    \"description\": \"To be completed by: {{date}} \\n\\n {{desc}}\",\r\n                    \"name\": \"Epic\"\r\n                }\r\n  }\r\n}"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -112,10 +111,9 @@
 		},
 		{
 			"name": "tasks",
-			"description": "",
 			"item": [
 				{
-					"name": "Sense Consistency screenshots and pictures",
+					"name": "QV Consistency screenshots and pictures",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -141,7 +139,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\t\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Screenshots and images reflect UI\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n https://confluence.qliktech.com/display/WW/Documentation+Milestone+Checklist+-+Work+Instruction \\n Check the following areas: \\n\\n DeploymentConsole \\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nServer\\nServerLog Troubleshooting\\nAPIS\\nHelpsites \\n\\n  Verify that \\n 1.) Screen shots are up-to-date \\n 2.) Texts related to a screen shot (caption and body) are aligned with the text on the screen shot \\n 3.) Correct UI label (approved in the resx file) is used in the documentation.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\t\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Screenshots and images reflect UI\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n https://confluence.qliktech.com/display/WW/Documentation+Milestone+Checklist+-+Work+Instruction \\n Check the following areas: \\n\\n DeploymentConsole \\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nServer\\nServerLog Troubleshooting\\nAPIS\\nHelpsites \\n\\n  Verify that \\n 1.) Screen shots are up-to-date \\n 2.) Texts related to a screen shot (caption and body) are aligned with the text on the screen shot \\n 3.) Correct UI label (approved in the resx file) is used in the documentation.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -164,7 +162,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense images, logos, and diagrams",
+					"name": "QV images, logos, and diagrams",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -190,7 +188,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Check for consistency of images, logos and diagrams\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n The task includes investigation and fixing errors found. \\n Risk: The images, logos and diagrams in the documentation are not up to date\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Check for consistency of images, logos and diagrams\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n The task includes investigation and fixing errors found. \\n Risk: The images, logos and diagrams in the documentation are not up to date\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -213,7 +211,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Run unused items report",
+					"name": "QV Run unused items report",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -239,7 +237,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Run the unused items report\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n For each project\\nDeploymentConsole\\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nTroubleshooting\\nHelpSites\\nAPIs \\n\\n Run the Unused items report from within Flare and make sure to catch and topics that are not in any TOC \\n For unused items, source files for drawings should not be deleted even though they are not used (they should reside in the folder Resouces/Images/SourceFiles) \\n This task will be followed up by an Analyzer report, where we hope for very few findings. \\n\\n NOTE: The purpose of this task is to find and correct errors before creating the analyzer report. If time and resources are lacking, this MS check can be skipped. If so, make sure the Analyzer report is done in time to be able to correct findings.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Run the unused items report\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n For each project\\nDeploymentConsole\\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nTroubleshooting\\nHelpSites\\nAPIs \\n\\n Run the Unused items report from within Flare and make sure to catch and topics that are not in any TOC \\n For unused items, source files for drawings should not be deleted even though they are not used (they should reside in the folder Resouces/Images/SourceFiles) \\n This task will be followed up by an Analyzer report, where we hope for very few findings. \\n\\n NOTE: The purpose of this task is to find and correct errors before creating the analyzer report. If time and resources are lacking, this MS check can be skipped. If so, make sure the Analyzer report is done in time to be able to correct findings.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -262,7 +260,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Run analyzer",
+					"name": "QV Run analyzer",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -288,7 +286,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Run Analyzer\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n For each project\\nDeploymentConsole\\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nTroubleshooting\\nHelpSites\\nAPIs \\n\\n Run Flare's Analyzer on the different projects to find out items such as: \\n\tBroken links \\n Duplicate TOC items \\n Topics not in selected TOC \\n Unused content files \\n When done, either take actions needed according to findings, or create Jira tasks with details about what is needed.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Run Analyzer\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n For each project\\nDeploymentConsole\\nDevHub\\nHub\\nInstallation\\nManagement console\\nMonitoring\\nPlatform overview\\nPlugins\\nTroubleshooting\\nHelpSites\\nAPIs \\n\\n Run Flare's Analyzer on the different projects to find out items such as: \\n\tBroken links \\n Duplicate TOC items \\n Topics not in selected TOC \\n Unused content files \\n When done, either take actions needed according to findings, or create Jira tasks with details about what is needed.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -311,7 +309,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Check product toggles",
+					"name": "QV Check product toggles",
 					"event": [
 						{
 							"listen": "test",
@@ -355,7 +353,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n\t\"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Build output according to product toggles\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n These tasks are checked on the RC build \\n Make sure the build output for the RC build shows help for product scenarios that are toggled on. \\n Make sure the build output for the RC build excludes help for toggled off product scenarios. \\n This task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here. \\n\\n Writers condition summary: \\n http://confluence.qliktech.com/display/DOC/MS17+feature+conditions\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n\t\"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Build output according to product toggles\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n These tasks are checked on the RC build \\n Make sure the build output for the RC build shows help for product scenarios that are toggled on. \\n Make sure the build output for the RC build excludes help for toggled off product scenarios. \\n This task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here. \\n\\n Writers condition summary: \\n http://confluence.qliktech.com/display/DOC/MS17+feature+conditions\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -378,7 +376,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Check product toggles _dev",
+					"name": "QV Check product toggles _dev",
 					"event": [
 						{
 							"listen": "test",
@@ -426,7 +424,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"fields\":\r\n    {\r\n\t\t\"customfield_14002\": {\r\n        \t\"value\": \"Qlik Sense Enterprise\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Dev\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
+							"raw": "{\r\n    \"fields\":\r\n    {\r\n\t\t\"customfield_14002\": {\r\n        \t\"value\": \"QlikView\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Dev\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -449,7 +447,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Check product toggles _front-end",
+					"name": "QV Check product toggles _front-end",
 					"event": [
 						{
 							"listen": "test",
@@ -497,7 +495,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"fields\":\r\n    {\r\n    \t\"customfield_14002\": {\r\n        \t \"value\": \"Qlik Sense Enterprise\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Front end/data\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
+							"raw": "{\r\n    \"fields\":\r\n    {\r\n    \t\"customfield_14002\": {\r\n        \t \"value\": \"QlikView\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Front end/data\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -520,7 +518,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Check product toggles _install-admin",
+					"name": "QV Check product toggles _install-admin",
 					"event": [
 						{
 							"listen": "test",
@@ -568,7 +566,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"fields\":\r\n    {\r\n    \t\"customfield_14002\": {\r\n        \t \"value\": \"Qlik Sense Enterprise\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Install/Admin\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
+							"raw": "{\r\n    \"fields\":\r\n    {\r\n    \t\"customfield_14002\": {\r\n        \t \"value\": \"QlikView\"\r\n    \t},\r\n        \"project\":\r\n        {\r\n            \"key\": \"HLP\"\r\n        },\r\n        \"parent\":\r\n        {\r\n            \"key\": \"{{issue_id}}\"\r\n        },\r\n        \"summary\": \"MS Check - RC output: Install/Admin\",\r\n        \"description\": \"To be completed by: {{date}} \\n\\n Reminder: these checks are performed on the RC branch. \\n\\n If needed assign to each writer who have produced content for this MS.\\n\\nThis task should be done when Feature condition is toggled ON and not as part of Milestone checks. But if needed, revisit this task here.\",\r\n        \"issuetype\":\r\n        {\r\n            \"id\": \"12\"\r\n        }\r\n    }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue",
@@ -590,7 +588,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense Download + unzip tutorials",
+					"name": "QV Download + unzip tutorials",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -616,7 +614,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Download + unzip tutorials/ other zip files on Beta help\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n Download the different tutorial zips from the portal using different browsers (Chrome, IE, Firefox, Safari) and check that the zips can be unzipped and contain the correct pdf + the correct app.\\r\\n||----||Beginning with the basics||||Building an app||Scripting 1||||Scripting 2||\\r\\n|*Chrome*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*FireFox*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*IE*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*Safari*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Download + unzip tutorials/ other zip files on Beta help\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n Download the different tutorial zips from the portal using different browsers (Chrome, IE, Firefox, Safari) and check that the zips can be unzipped and contain the correct pdf + the correct app.\\r\\n||----||Beginning with the basics||||Building an app||Scripting 1||||Scripting 2||\\r\\n|*Chrome*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*FireFox*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*IE*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\\r\\n|*Safari*|-----|-----|-----|-----|\\r\\n|Can be unzipped|y/n|y/n|y/n|y/n|\\r\\n|Correct PDF|y/n|y/n|y/n|y/n|\\r\\n|Correct app|y/n|y/n|y/n|y/n|\\r\\n|Correct examples|y/n|y/n|y/n|y/n|\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -639,7 +637,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense PDF check",
+					"name": "QV PDF check",
 					"request": {
 						"auth": {
 							"type": "basic",
@@ -665,7 +663,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"self\": \"https://jira.qlikdev.com/rest/api/2/customFieldOption/10818\",\r\n                        \"value\": \"Documentation - Writers\",\r\n                        \"id\": \"10818\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Sense PDF checks\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n First, verify that PDF TOCs are up to date. Generate the following PDF tocs from the Hub.fltoc to make sure their contents is up to date: \\n Cloud.fltoc \\n Collaborate_PDF.fltoc \\n CreateAppsVisualizations_PDF.fltoc \\n Desktop.fltoc \\n DiscoverAnalyze_PDF.fltoc \\n ManageData_PDF.fltoc \\n\\n Next, check that the final build with correct version number \\n\\n Finally, download the PDFs using different browsers and check the header and footer, version number, layout, and the icon font.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"self\": \"https://jira.qlikdev.com/rest/api/2/customFieldOption/10818\",\r\n                        \"value\": \"Documentation - Writers\",\r\n                        \"id\": \"10818\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - Sense PDF checks\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n First, verify that PDF TOCs are up to date. Generate the following PDF tocs from the Hub.fltoc to make sure their contents is up to date: \\n Cloud.fltoc \\n Collaborate_PDF.fltoc \\n CreateAppsVisualizations_PDF.fltoc \\n Desktop.fltoc \\n DiscoverAnalyze_PDF.fltoc \\n ManageData_PDF.fltoc \\n\\n Next, check that the final build with correct version number \\n\\n Finally, download the PDFs using different browsers and check the header and footer, version number, layout, and the icon font.\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue/",
@@ -688,7 +686,7 @@
 					"response": []
 				},
 				{
-					"name": "Sense System requirements",
+					"name": "QV System requirements",
 					"event": [
 						{
 							"listen": "test",
@@ -726,7 +724,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"Qlik Sense Enterprise\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - System requirements\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n Check the system requirements for Sense Desktop, Mobile, and Enterprise. \\n The system requirements are listed here: \\n http://confluence.qliktech.com/display/PMSC/System+Requirements\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
+							"raw": "{\r\n\"fields\": {\r\n\t\"customfield_14002\": {\r\n         \"value\": \"QlikView\"\r\n    },\r\n\t\"labels\": [\r\n\t\t\"{{label}}\"\r\n\t\t],\r\n\t\"customfield_10006\": \"{{epic_num}}\",\r\n\t\"customfield_10304\": \r\n                    [{\r\n                        \"value\": \"Documentation - Writers\"\r\n                    }],\r\n   \"project\":\r\n   { \r\n      \"key\": \"HLP\"\r\n   },\r\n   \"summary\": \"MS Check - System requirements\",\r\n   \"description\": \"To be completed by: {{date}} \\n\\n Check the system requirements for Sense Desktop, Mobile, and Enterprise. \\n The system requirements are listed here: \\n http://confluence.qliktech.com/display/PMSC/System+Requirements\",\r\n   \"issuetype\": {\r\n      \"name\": \"Task\"\r\n   }\r\n  }\r\n}\r\n\r\n"
 						},
 						"url": {
 							"raw": "https://jira.qlikdev.com/rest/api/2/issue",
