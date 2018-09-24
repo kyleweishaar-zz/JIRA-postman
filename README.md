@@ -1,12 +1,9 @@
-# JIRA-postman
-
-|  |  |
-|--|--|
-|![jira](source/images/jira.png)|![postman](source/images/postman.png)
-
-## Description
+# Create JIRA epic with tasks/subtaks
 
 A script to build JIRA tasks using postman collections and Newman.
+
+<img src="source/images/postman.png" style="max-width:100px; vertical-align:18px">
+<img src="source/images/jira.png" style="max-width:100px;">
 
 ## Note about passwords
 
