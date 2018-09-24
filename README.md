@@ -7,34 +7,36 @@ A script to build JIRA tasks using postman collections and Newman.
 
 ## Note about passwords
 
-Your JIRA password is stored to the postman environment file `MS_env.json`, but I have removed this file from the git index. After you run the script, your local MS_env file is populated with the variables that you enter when prompted. Git ignores changes to this file, but you should still be careful with which files you share.
+When you run the batch file, you are prompted to enter `pw` and `un`. Your credentials are stored in the local copy of the `MS_env.json` file. Git ignores changes to this file, but you should still be careful with which files you share.
 
 ## Installation
 
-### Requirements
+1. Clone the repository.
 
-You'll need to have `npm` to install dependencies.
+    ```bash
+    c/git
+    $ git clone https://github.com/kyleweishaar/JIRA-postman
+    ```
 
-Download [here](https://www.npmjs.com/get-npm).
+1. Install `npm` (if you don't already have it).
 
-Clone the repo.
+    Download [here](https://www.npmjs.com/get-npm).
 
-```bash
-c/git
-$ git clone https://github.com/kyleweishaar/JIRA-postman
-```
+1. Install dependencies.
 
-From the root folder, run the following command to install the dependencies:
+    From the root folder, run the following command to install the dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 ### Folder structure
 
 You can ignore most of what's in here. Click on one of the batch files to run the script.
 
 ![folder](source/images/folders.png)
+
+- Reports are saved to `newman`. You can delete these files if not needed. The script will create a new folder if not there.
 
 ## Usage
 

@@ -4,19 +4,19 @@
   "values": [
     {
       "key": "label",
-      "value": "label_1",
+      "value": "QV_test",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "desc",
-      "value": "epic desc",
+      "value": "Do the QV checks",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "epic_name",
-      "value": "epic test",
+      "value": "QV MS checks",
       "enabled": true,
       "type": "text"
     },
@@ -34,7 +34,7 @@
     },
     {
       "key": "date",
-      "value": "Aug 1",
+      "value": "Oct 1st",
       "enabled": true,
       "type": "text"
     }
