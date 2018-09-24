@@ -4,37 +4,37 @@
   "values": [
     {
       "key": "label",
-      "value": "QV_test",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "desc",
-      "value": "Do the QV checks",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "epic_name",
-      "value": "QV MS checks",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "username",
-      "value": "bdm",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "password",
-      "value": "Syntax37",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "date",
-      "value": "Oct 1st",
+      "value": "",
       "enabled": true,
       "type": "text"
     }
