@@ -2,8 +2,8 @@
 
 A script to build JIRA tasks using postman collections and Newman.
 
-<img src="source/images/postman.png" width="100px" height="auto">
-<img src="source/images/jira.png" width="100px" height="auto">
+<img src="source/images/postman.png" display="inline-block" width="100px" height="auto">
+<img src="source/images/jira.png" display="inline-block" width="100px" height="auto">
 
 ## Note about passwords
 
