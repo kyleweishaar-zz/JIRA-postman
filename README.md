@@ -1,10 +1,8 @@
 # JIRA-postman
 
-<div style="display:flex;flex-direction:row;justify-content:center"  >
-<img src="source/images/jira.png" width="25%" height="25%" />
-<h2 style="padding:25px"> & </h2>
-<img src="source/images/postman.png" width="25%" height="25%" />
-</div>
+|  |  |
+|--|--|
+|![jira](source/images/jira.png)|![postman](source/images/postman.png)
 
 ## Description
 
