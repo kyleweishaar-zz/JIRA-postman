@@ -11,7 +11,7 @@
 # List ignore file below
 ##########################################
 
-source/MS_env.json
+source/globals/
 
 node_modules/
 
