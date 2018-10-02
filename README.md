@@ -31,7 +31,7 @@ When you run the batch file, you are prompted to enter `pw` and `un`. Your crede
     From the root folder (c/git/JIRA-postman), run the following command to install the dependencies:
 
     ```bash
-    c/git/JIRA/postman
+    c/git/JIRA-postman
     $ npm install
     ```
 
