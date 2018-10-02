@@ -21,10 +21,14 @@ When you run the batch file, you are prompted to enter `pw` and `un`. Your crede
 1. Install `npm` (if you don't already have it).
 
     Download [here](https://www.npmjs.com/get-npm).
+    
+    When setting up the installer, make sure that npm/node are added to your PATH.
+    
+1. Restart Git Bash.
 
 1. Install dependencies.
 
-    From the root folder, run the following command to install the dependencies:
+    From the root folder (c/git/JIRA-postman), run the following command to install the dependencies:
 
     ```bash
     npm install
