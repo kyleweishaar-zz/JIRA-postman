@@ -13,6 +13,10 @@
 
 source/globals/
 
+globals
+
+MS_env
+
 node_modules/
 
 Newman/
