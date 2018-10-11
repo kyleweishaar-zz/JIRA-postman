@@ -22,13 +22,13 @@
     },
     {
       "key": "username",
-      "value": "",
+      "value": "xxx",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "password",
-      "value": "",
+      "value": "xxx",
       "enabled": true,
       "type": "text"
     },
