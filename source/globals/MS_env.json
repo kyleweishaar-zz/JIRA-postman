@@ -4,37 +4,37 @@
   "values": [
     {
       "key": "label",
-      "value": "",
+      "value": "some_label",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "desc",
-      "value": "",
+      "value": "Some description here",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "epic_name",
-      "value": "",
+      "value": "some_name",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "username",
-      "value": "",
+      "value": "bdm",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "password",
-      "value": "",
+      "value": "Syntax37",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "date",
-      "value": "",
+      "value": "Due right now!",
       "enabled": true,
       "type": "text"
     }

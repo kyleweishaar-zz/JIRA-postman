@@ -57,7 +57,7 @@ The batch file opens a cmd shell. Enter the details as prompted.
 
 - trigram = Qlik trigram
 
-- password = JIRA/Qlik password
+- password = JIRA password (usually the same as your Qlik login password)
 
 - JIRA label = product_MS_Checks
 
@@ -76,3 +76,12 @@ After the program runs, you'll get a confirmation message and a status report op
 Click the first green bar at the top of the page to expand it. In the reponse body you'll see the epic JIRA number. All JIRA tasks are nested under that. If there are errors, the bar(s) appear red. Expand the bar to see the error code and use Google to search for JIRA error code values.
 
 Reports are saved to the `Newman` folder. The newman folder is in the gitignore file so new reports won't be added to github.
+
+### Errors
+
+|Status code|Problem|Solution|
+|:---:|---|---|
+|201|Good API request|n/a|
+|401|Unauthorized|Try the script again. Make sure to use your trigram `ABC` or `abc` and the password that you use to log into JIRA `password123`.|
+|403|Forbidden|Unable to create tasks. Not necessarily an authentication issue, but the script can't access the JIRA API. Try clearing the browser cache, logging in/out of JIRA, and restarting your machine. Ask someone else to try running the script, if they succeed then it is probably solvable by restarting your computer.|
+
