@@ -9,13 +9,13 @@ A script to build JIRA tasks using postman collections and Newman.
 
 When you run the batch file, you are prompted to enter `password` and `username`. Your credentials are stored in the local copy of the `MS_env.json` file. Git ignores changes to this file, but you should still be careful with which files you share. If after you run the script and you have uncommitted changes, it's going to be this file: `MS_env.json`.
 
-To stop tracking it, run this:
+Before you run the script for the first time, run this:
 
 ```bash
-git rm --cached
+git update-index --assume-unchanged source/globals/MS_env.json
 ```
 
-Then check your local .gitignore file. `source/globals/` should be there, but if not, add it!
+This should remove this specific file from the git index, so even when the file changes, git won't ask you to push.
 
 ## Installation
 
