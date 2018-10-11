@@ -22,13 +22,13 @@
     },
     {
       "key": "username",
-      "value": "bdm",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "password",
-      "value": "Syntax37",
+      "value": "",
       "enabled": true,
       "type": "text"
     },
